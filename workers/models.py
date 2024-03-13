@@ -17,6 +17,3 @@ class Worker(models.Model):
 
     def __str__(self):
         return f"{self.pk}_{self.name}{self.lastName}"
-
-
-#     test

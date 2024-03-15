@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'employers.apps.EmployersConfig',
     'works.apps.WorksConfig',
     'rest_framework',
+    "sms.apps.SmsConfig"
 ]
 
 MIDDLEWARE = [
